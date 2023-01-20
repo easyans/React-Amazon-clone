@@ -1,0 +1,120 @@
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__logo{
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+.header__location{
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+    width: 15px;
+    height: 18px;
+    color: #fff;
+}
+
+.header__dropdown{
+    display: flex;
+    height: 40px;
+    width: 50px;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #e6e5e5;
+    text-align-last: center;
+}
+
+.header__search{
+    display: flex;
+    flex: 1 1 0;
+    align-items: center;
+    margin: 10px;
+}
+
+.header__searchInput{
+    height: 38px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
+.header__searchIcon{
+    padding: 1px;
+    width: 34px !important;
+    height: 38px !important ;
+    background-color: #ff9204;
+    border-radius: 0px 5px 5px 0px;
+    cursor: pointer;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.header__option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.optionLineOne{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 9px;
+}
+.optionLineTwo{
+    display: flex;
+    justify-content: flex-start;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #131921 ;
+    border: none;
+    cursor: pointer;
+}
+
+.header__optionBasket{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.header__basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header__footer{
+    display: flex;
+    width: 100vw;
+    height: 30px;
+    background-color: #2a2b2c ;
+    color: white;
+}
+
+.header__footerText{
+    margin: 5px 10px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.header__footerImg{
+    margin-left: 225px ;
+}
+
+.link{
+    color: white;
+}
